@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary-background: #1f1f1f;
+		--secondary-background: #2f2f2f;
+		--header-background: #444;
+		--text: #fff;
+		--text-dark: #bbb;
+		--text-table: #303030;
+		--text-table-two: #3a3a3a;
+		--text-table-three: #424242;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--primary-background: #fafafa;
+		--secondary-background: #eaeaea;
+		--header-background: #ddd;
+		--text: #000;
+		--text-dark: #aaa;
+	}
+}
+
+:root {
+	--link-color: rgb(23, 228, 255);
+	--text-code: #9eff01;
+	scrollbar-width: none;
+}
+
+body {
+	background: var(--primary-background);
+}
+
+.App {
+	color: var(--text);
+	text-align: center;
+}
+
+.App a {
+	color: var(--text);
+}

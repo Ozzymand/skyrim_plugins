@@ -1,0 +1,159 @@
+{
+	"INI": {
+		"short": "INI",
+		"long": "initialization",
+		"desc": "A plain-text file where settings are stored"
+	},
+	"CTD": {
+		"short": "CTD",
+		"long": "Crash To Desktop",
+		"desc": "The most common activity of skyrim, you'll get used to it /s"
+	},
+	"PC": {
+		"short": "PC",
+		"long": "Player Character",
+		"desc": "the thing you control in game"
+	},
+	"LE": {
+		"short": "LE",
+		"long": "Legendary Edition (SkyrimLE)",
+		"desc": "Also known as Oldrim"
+	},
+	"SE": {
+		"short": "SE",
+		"long": "Special Edition (SkyrimSE)",
+		"desc": "The more commonly used version for mod releases"
+	},
+	"AE": {
+		"short": "AE",
+		"long": "Aniversary Edition (SkyrimAE)",
+		"desc": "The latest version of the game"
+	},
+	"ESM": {
+		"short": "ESM",
+		"long": "Elder Scrolls Master",
+		"desc": "A master file for Elder Scrolls",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"ESP": {
+		"short": "ESP",
+		"long": "Elder Scrolls Plugin",
+		"desc": "A plugin file for Elder Scrolls",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"ESL": {
+		"short": "ESL",
+		"long": "Elder Scrolls Light",
+		"desc": "A light-marked plugin/master for Elder Scrolls; can do less",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"BSA": {
+		"short": "BSA",
+		"long": "BetheSda Archive",
+		"desc": "A resource file (you probably don't have to mess with these)",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"NMM": {
+		"short": "NMM",
+		"long": "Nexus Mod Manager",
+		"desc": "The OG (and outdated) mod manager. Probably shouldn't use it",
+		"link": "https://www.nexusmods.com/site/mods/4?tab=files&file_id=462"
+	},
+	"Vortex": {
+		"short": "Vortex",
+		"long": "Vortex Mod Manager",
+		"desc": "The \"official\" mod manager from nexus mods; Has the latest features",
+		"link": "https://www.nexusmods.com/site/mods/1?tab=files"
+	},
+	"MO2": {
+		"short": "MO2",
+		"long": "Mod Organizer 2",
+		"desc": "A somewhat better mod organizer than Vortex and NMM; It uses a virtual file system to mount the mods instead of placing them inside the skyrim data folder (where mods live)",
+		"link": "https://www.modorganizer.org/"
+	},
+	"LO": {
+		"short": "LO",
+		"long": "Load Order",
+		"desc": "The load order of the mods (first to last)"
+	},
+	"FOMOD": {
+		"short": "FOMOD",
+		"long": "FallOut mod manager Mod",
+		"desc": "Originally from fallout, now used as a special way to provide an installer for mod managers"
+	},
+	"LOD/DOLOD": {
+		"short": "LOD / DOLOD",
+		"long": "Level of Detail / Distant object Level of Detail",
+		"desc": "A technique used by devs to save on resources by using a smaller resolution / model for items in the distance."
+	},
+	"HP": {
+		"short": "HP",
+		"long": "High Poly",
+		"desc": "Something has a high polygon count aka the matter of video game reality."
+	},
+	"LOOT": {
+		"short": "LOOT",
+		"long": "Load Order Optimisation Tool",
+		"desc": "A very handy tool to well, optimize your load order in 1 click",
+		"link": "https://loot.github.io/"
+	},
+	"SSEEDIT": {
+		"short": "SSEEdit",
+		"long": "SSE xEdit",
+		"desc": "Advanced graphical module viewer/editor and conflict detector",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/164/"
+	},
+	"SKSE": {
+		"short": "SKSE",
+		"long": "Skyrim Script Extender",
+		"desc": "Powerful framework for many mods",
+		"link": "https://skse.silverlock.org/"
+	},
+	"XP32": {
+		"short": "XP32",
+		"long": "XP32 Maximum Skeleton",
+		"desc": "A skeleton replacement mod for the PC",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/1988"
+	},
+	"HTD-SMP": {
+		"short": "HTD - SMP",
+		"long": "HydrogensaysHDT - Skinned Mesh Physics",
+		"desc": "A VERY important mod that adds physics to your character and clothes",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/30872"
+	},
+	"CBPC": {
+		"short": "CBPC",
+		"long": "Collision Based Physics Continued",
+		"desc": "A continuation of CBP, just more features. (Is this what CPBC stands for? I don't know)",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/21224"
+	},
+	"CBBE": {
+		"short": "CBBE",
+		"long": "Caliente's Beautiful Bodies Enhancer",
+		"desc": "A tool that replaces the default body of the PC",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/198"
+	},
+	"3BA": {
+		"short": "3BA",
+		"long": "3 Breast Bone Body Advanced",
+		"desc": "Also refered to as 3BBB. The most commonly used body physics mod",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/30174"
+	},
+	"BHUNP": {
+		"short": "BHUNP",
+		"long": "Greatly improved UNP",
+		"desc": "An alternative to 3BA that provides more features for clothes (if included). It's older brothers are: UUNP & UNP",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/31126"
+	},
+	"SMIM": {
+		"short": "SMIM",
+		"long": "Static Mesh Iprovement Mod",
+		"desc": "A popular mod that aims to fix many of the game's meshes",
+		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/659"
+	},
+	"LOTD": {
+		"short": "LOTD",
+		"long": "Legacy of the Dragonborn",
+		"desc": "A popular mod for skyrim, adds a bunch of new content"
+	}
+}
