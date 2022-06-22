@@ -1,9 +1,4 @@
 {
-	"INI": {
-		"short": "INI",
-		"long": "initialization",
-		"desc": "A plain-text file where settings are stored"
-	},
 	"CTD": {
 		"short": "CTD",
 		"long": "Crash To Desktop",
@@ -28,30 +23,6 @@
 		"short": "AE",
 		"long": "Aniversary Edition (SkyrimAE)",
 		"desc": "The latest version of the game"
-	},
-	"ESM": {
-		"short": "ESM",
-		"long": "Elder Scrolls Master",
-		"desc": "A master file for Elder Scrolls",
-		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
-	},
-	"ESP": {
-		"short": "ESP",
-		"long": "Elder Scrolls Plugin",
-		"desc": "A plugin file for Elder Scrolls",
-		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
-	},
-	"ESL": {
-		"short": "ESL",
-		"long": "Elder Scrolls Light",
-		"desc": "A light-marked plugin/master for Elder Scrolls; can do less",
-		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
-	},
-	"BSA": {
-		"short": "BSA",
-		"long": "BetheSda Archive",
-		"desc": "A resource file (you probably don't have to mess with these)",
-		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
 	},
 	"NMM": {
 		"short": "NMM",
@@ -141,13 +112,13 @@
 	},
 	"BHUNP": {
 		"short": "BHUNP",
-		"long": "Greatly improved UNP",
+		"long": "Baka & Hauen UNP",
 		"desc": "An alternative to 3BA that provides more features for clothes (if included). It's older brothers are: UUNP & UNP",
 		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/31126"
 	},
 	"SMIM": {
 		"short": "SMIM",
-		"long": "Static Mesh Iprovement Mod",
+		"long": "Static Mesh Improvement Mod",
 		"desc": "A popular mod that aims to fix many of the game's meshes",
 		"link": "https://www.nexusmods.com/skyrimspecialedition/mods/659"
 	},

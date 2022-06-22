@@ -13,7 +13,7 @@ function NavBar() {
 				</Link>
 				<Link to="/abbrv" className="navbar-btn">
 					<li>
-						Lingo & Suggestions
+						Lingo & File names
 					</li>
 				</Link>
 			</ul>

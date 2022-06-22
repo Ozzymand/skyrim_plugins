@@ -3,11 +3,8 @@ import './Abbvr.css';
 import { Link } from 'react-router-dom';
 
 const jsonData = require('./SSEAbv.json');
-// convert jsonData to array
 const abbrv = Object.keys(jsonData).map(key => jsonData[key]);
-
 let id = 0;
-// create a new div for each item in the array
 const abbrvDiv = abbrv.map(item => {
   id++;
   return (
@@ -34,6 +31,35 @@ const abbrvDiv = abbrv.map(item => {
   )
 });
 
+const jsonAbbrvFile = require('./SSEAbvFile.json');
+const abbrvFile = Object.keys(jsonAbbrvFile).map(key => jsonAbbrvFile[key]);
+let id2 = 1;
+const abbrvFiles = abbrvFile.map(item => {
+  id++;
+  return (
+    <div>
+      <div className='abbrvF-div'>
+        <div className='abbrvF-info'>
+          <div className='abbrvF-id'>
+            {id2}
+          </div>
+          <a href={item.link}>
+            <div className='abbrvF-short'>
+              <b>{item.short}</b>
+            </div>
+          </a>
+          <div className='abbvrF-long'>
+            {item.long}
+          </div>
+        </div>
+        <div className='abbrvF-desc'>
+          {item.desc}
+        </div>
+      </div>
+    </div>
+  )
+});
+
 const authorNote = (
   <div className='author-div'>
     <p><h3>This list is not perfect</h3>
@@ -47,6 +73,7 @@ const authorNote = (
     </p>
   </div>
 )
+
 
 function Abbrv() {
   return (
@@ -65,11 +92,16 @@ function Abbrv() {
       </div>
       <div className='container'>
         <div className='left'>
+          -- List of commonly used terms in skyrim modding --
           {abbrvDiv}
         </div>
         <div className='right'>
           <div className='author-note'>
             {authorNote}
+          </div>
+          <div className='filenames'>
+            -- List of file extensions explained --
+            {abbrvFiles}
           </div>
         </div>
       </div>

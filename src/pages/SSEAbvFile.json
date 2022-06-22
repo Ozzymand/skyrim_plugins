@@ -1,0 +1,43 @@
+{
+	"INI": {
+		"short": "INI",
+		"long": "Initialization",
+		"desc": "File used to store settings"
+	},
+	"ESM": {
+		"short": "ESM",
+		"long": "Elder Scrolls Master",
+		"desc": "A master file for Elder Scrolls",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"ESP": {
+		"short": "ESP",
+		"long": "Elder Scrolls Plugin",
+		"desc": "A plugin file for Elder Scrolls",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"ESL": {
+		"short": "ESL",
+		"long": "Elder Scrolls Light",
+		"desc": "A light-marked plugin/master for Elder Scrolls; can do less & doesn't count towards the 255 plugin limit",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"BSA": {
+		"short": "BSA",
+		"long": "BetheSda Archive",
+		"desc": "A resource file (you probably don't have to mess with these)",
+		"link": "https://en.uesp.net/wiki/Skyrim_Mod:File_Formats"
+	},
+	"OSP": {
+		"short": "OSP",
+		"long": "Outfit Studio Project",
+		"desc": "The project file of an outfit, just plain text (XML format). Used to have .xml extension",
+		"link": "https://www.loverslab.com/topic/62602-bodyslide-help-whats-an-osp-file/?do=findComment&comment=1574661"
+	},
+	"OSD": {
+		"short": "OSD",
+		"long": "Outfit Studio Data",
+		"desc": "The slider data file of the project, contains everything that was once thousands of tiny BSD files",
+		"link": "https://www.loverslab.com/topic/62602-bodyslide-help-whats-an-osp-file/?do=findComment&comment=1574661"
+	}
+}

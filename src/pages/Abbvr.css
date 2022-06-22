@@ -34,6 +34,9 @@
 .author-note {
 	height: auto;
 	background-color: var(--secondary-background);
+	padding: 10px;
+	border: 1px solid #fff5;
+	border-radius: 10px;
 }
 
 .author-note a {
@@ -66,12 +69,54 @@
 
 .abbvr-long {
 	padding-left: 10px;
-	width: 400px;
+	width: 100%;
 	text-align: start;
 	background-color: var(--text-table-three);
 }
 
 .abbrv-desc {
+	color: var(--text-dark);
+	font-size: 13px;
+	text-align: start;
+	padding-left: 10px;
+	background-color: var(--text-table-two);
+}
+
+/* css for the file abbreviations */
+.abbrvF-div {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 5px;
+	margin-left: -0.5%;
+	margin-right: -20px;
+}
+
+.abbrvF-info {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 1px;
+}
+
+.abbrvF-id {
+	min-width: 30px;
+	background-color: var(--text-table);
+}
+
+.abbrvF-short {
+	min-width: 60px;
+	width: auto;
+	background-color: var(--text-table-two);
+}
+
+.abbvrF-long {
+	padding-left: 10px;
+	width: 100%;
+	text-align: start;
+	background-color: var(--text-table-three);
+}
+
+.abbrvF-desc {
 	color: var(--text-dark);
 	font-size: 13px;
 	text-align: start;
